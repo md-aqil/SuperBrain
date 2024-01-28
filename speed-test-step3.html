@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./speed-test.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cedarville Cursive:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space Grotesk:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="speed-test">
+        <div class="find-your-starting-speed-parent">
+          <div class="find-your-starting">Find your starting Speed</div>
+          <div class="read-for-2">
+            Read For 2 minutes after two minutes count the line you have read
+          </div>
+        </div>
+
+        <div class="bg-rib">
+        <img class="ribbon1" alt="" src="./public/small-ribbon.svg">
+
+          <h2  id="timerButton"
+          data-duration="120">02:00</h2>
+
+          <button
+            class="btn-blue modal-trigger"
+           
+            data-modal-target="#myModal"
+          >
+            Calculate speed
+          </button>
+  
+        </div>
+       
+      <div class="shaperectanglesize71">
+        <img class="vector-icon42" alt="" src="./public/vector.svg" />
+
+        <img class="vector-icon43" alt="" src="./public/vector.svg" />
+
+        <img class="vector-icon44" alt="" src="./public/vector.svg" />
+
+        <img
+          class="shaperectanglesize7-item"
+          alt=""
+          src="./public/vector-3.svg"
+        />
+
+        <img
+          class="shaperectanglesize7-child1"
+          alt=""
+          src="./public/frame-95481.svg"
+        />
+
+        <div class="border-container">
+          <p class="once-upon-a">
+            Once upon a time in the quaint town of Serenity Grove, nestled
+            between rolling hills and whispering woods, there lived a young
+            artist named Isabella. She was known for her enchanting paintings
+            that seemed to capture the very essence of magic and dreams.
+            Isabella's art brought joy to the hearts of those who gazed upon it,
+            but she herself harbored a quiet longing for something extraordinary
+            to unfold in her own life. One misty morning, as the sun painted the
+            sky with hues of pink and gold, Isabella took a solitary stroll
+            through the ancient forest that bordered Serenity Grove. Lost in her
+            thoughts, she stumbled upon an old, forgotten well hidden amidst the
+            towering trees. Curiosity sparked within her, and she peered into
+            its depths, only to catch a glimpse of a shimmering reflection that
+            seemed to beckon her into another world.
+          </p>
+          <p class="once-upon-a">
+            Without hesitation, Isabella descended the moss-covered stones of
+            the well, and to her amazement, found herself in a magical realm
+            bathed in ethereal light. The air was filled with the sweet scent of
+            blooming flowers, and colorful butterflies danced around her like
+            living brushstrokes. As she
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- popup -->
+
+    <!-- Trigger button -->
+
+    <!-- Modal HTML structure -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">
+          <img class="" width="50" alt="" src="./public/group-35564@2x.png" />
+        </span>
+
+        <div class="calculator">
+          <h2>WPM Calculator</h2>
+          <div id="speedCalculatorForm">
+            <div class="input">
+              <label for="linesRead">Lines Read:</label>
+              <input type="number" id="linesRead" />
+            </div>
+
+            <div class="input">
+              <label for="minutesRead">Minutes Read:</label>
+              <input type="number" id="minutesRead" />
+            </div>
+
+            <div class="input">
+              <label for="wordsPerLine">Words Per Line:</label>
+              <input type="number" id="wordsPerLine" />
+            </div>
+
+            <button type="submit" class="btn btn-blue" id="calculateButton">
+              Calculate Speed
+            </button>
+          </div>
+
+          <div id="outputResults"></div>
+          <a href="./final.html" type="submit" class="btn btn-blue yellow" id="calculateButton" style="margin-top: 15px;
+          border: none;">
+            Keep Going
+        </a>
+
+        </div>
+      </div>
+      <button type="submit" class="btn btn-blue">Calculate Speed</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./public/js/customScript.js"></script>
+
+
+
+    <script>
+      
+      $(document).ready(function () {
+      // Function to execute when the timer is up
+      function timesUp() {
+        $('#timerButton').prop('disabled', false).addClass('yellow').text('Time Out');
+      }
+
+      // Function to start the timer
+      function startTimer(duration, callback) {
+        var timer = duration;
+        var intervalId = setInterval(function () {
+          // Format minutes and seconds as mm:ss
+          var minutes = Math.floor(timer / 60);
+          var seconds = timer % 60;
+          var formattedTime = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+          
+          $('#timerButton').text(formattedTime);
+
+          if (--timer < 0) {
+            clearInterval(intervalId);
+            callback(); // Call the provided callback when the timer is up
+          }
+        }, 1000);
+      }
+
+      // Start the timer on page load with a duration of two minutes (120 seconds)
+      var initialDuration = 120; // Timer duration in seconds
+      startTimer(initialDuration, timesUp);
+      $('#timerButton').prop('disabled', true); // Disable the button during the timer
+    });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+</head>
+<body>
+    <h1 data-i18n="greeting">Hello, World!</h1>
+    <button onclick="changeLanguage()">Switch Language</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/i18next@21.2.2/dist/umd/i18next.min.js"></script>
+    <script>
+        i18next.init({
+            lng: 'en',
+            resources: {
+                en: { translation: { "greeting": "Hello, World!", "switchButton": "Switch to Turkish" } },
+                tr: { translation: { "greeting": "Merhaba, Dünya!", "switchButton": "Türkçe'ye geç" } },
+                es: { translation: { "greeting": "¡Hola, Mundo!", "switchButton": "Cambiar a inglés" } }
+            }
+        });
+
+        function changeLanguage() {
+            const langOrder = ['en', 'tr', 'es'];
+            const currentLangIndex = langOrder.indexOf(i18next.language);
+            const newLang = langOrder[(currentLangIndex + 1) % langOrder.length];
+            i18next.changeLanguage(newLang);
+        }
+
+        i18next.on('languageChanged', () => {
+            document.body.setAttribute('lang', i18next.language);
+            i18next
+                .reloadResources()
+                .then(() => document.body.querySelectorAll('[data-i18n]').forEach(element => {
+                    const key = element.getAttribute('data-i18n');
+                    element.textContent = i18next.t(key);
+                }));
+        });
+    </script>
+</body>
+</html>

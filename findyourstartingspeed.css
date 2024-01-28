@@ -1,0 +1,59 @@
+.find-your-starting1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-weight: 500;
+  display: inline-block;
+  width: 618px;
+  -webkit-text-stroke: 3px #000;
+}
+.to-master-something {
+  margin: 0;
+}
+.to-master-something-container {
+  position: absolute;
+  top: 208px;
+  left: 0px;
+  font-size: var(--font-size-2xl);
+  letter-spacing: 0.02em;
+  line-height: 37px;
+  font-family: var(--font-lato);
+  color: var(--color-gray-200);
+  display: inline-block;
+  width: 933px;
+}
+.find-your-starting-speed-group {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 933px;
+  height: 356px;
+}
+.findyourstartingspeed-inner {
+  position: absolute;
+  top: 74px;
+  left: 130px;
+  width: 933px;
+  height: 356px;
+}
+.button-icon5 {
+  position: absolute;
+  top: 472px;
+  left: 130px;
+  border-radius: var(--br-73xl);
+  width: 483.9px;
+  height: 101.6px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.findyourstartingspeed {
+  position: relative;
+  background-color: var(--color-ivory);
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-51xl);
+  color: var(--color-black);
+  font-family: var(--font-space-grotesk);
+}

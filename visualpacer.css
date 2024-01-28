@@ -1,0 +1,774 @@
+.frame-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 33.4px;
+    height: 189.7px;
+    overflow: hidden;
+  }
+  .notebook-lines-child {
+    position: absolute;
+    height: 0.93%;
+    width: 100.52%;
+    top: 18.52%;
+    right: -0.26%;
+    bottom: 80.56%;
+    left: -0.26%;
+    border-top: 4.4px solid var(--color-lightskyblue);
+    box-sizing: border-box;
+  }
+  .notebook-lines-item {
+    position: absolute;
+    height: 0.93%;
+    width: 100.52%;
+    top: 29.08%;
+    right: -0.26%;
+    bottom: 69.99%;
+    left: -0.26%;
+    border-top: 4.4px solid var(--color-lightskyblue);
+    box-sizing: border-box;
+  }
+  .notebook-lines-inner {
+    position: absolute;
+    height: 0.93%;
+    width: 100.52%;
+    top: 39.62%;
+    right: -0.26%;
+    bottom: 59.45%;
+    left: -0.26%;
+    border-top: 4.4px solid var(--color-lightskyblue);
+    box-sizing: border-box;
+  }
+  .line-div {
+    position: absolute;
+    height: 0.93%;
+    width: 100.52%;
+    top: 50.19%;
+    right: -0.26%;
+    bottom: 48.88%;
+    left: -0.26%;
+    border-top: 4.4px solid var(--color-lightskyblue);
+    box-sizing: border-box;
+  }
+  .notebook-lines-child1 {
+    position: absolute;
+    height: 0.93%;
+    width: 100.52%;
+    top: 60.65%;
+    right: -0.26%;
+    bottom: 38.42%;
+    left: -0.26%;
+    border-top: 4.4px solid var(--color-lightskyblue);
+    box-sizing: border-box;
+  }
+  .notebook-lines-child2 {
+    position: absolute;
+    height: 0.93%;
+    width: 100.52%;
+    top: 71.19%;
+    right: -0.26%;
+    bottom: 27.88%;
+    left: -0.26%;
+    border-top: 4.4px solid var(--color-lightskyblue);
+    box-sizing: border-box;
+  }
+  .notebook-lines-child3 {
+    position: absolute;
+    height: 0.93%;
+    width: 100.52%;
+    top: 81.76%;
+    right: -0.26%;
+    bottom: 17.31%;
+    left: -0.26%;
+    border-top: 4.4px solid var(--color-lightskyblue);
+    box-sizing: border-box;
+  }
+  .notebook-lines-child4 {
+    position: absolute;
+    height: 0.93%;
+    width: 100.52%;
+    top: 92.3%;
+    right: -0.26%;
+    bottom: 6.77%;
+    left: -0.26%;
+    border-top: 4.4px solid var(--color-lightskyblue);
+    box-sizing: border-box;
+  }
+  .notebook-lines {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 843px;
+    height: 474.2px;
+  }
+  .use-a-visual {
+    position: absolute;
+    top: 24px;
+    left: 63px;
+    line-height: 110%;
+  }
+  .in-the-tranquil {
+    margin: 0;
+  }
+  .one-day-as {
+    margin: 0;
+  }
+  .amelia-realized-the {
+    margin: 0;
+  }
+  .one-day-a {
+    margin: 0;
+  }
+  .as-the-traveler {
+    margin: 0;
+  }
+  .word-of-eldenwoods {
+    margin: 0;
+  }
+  .in-the-heart {
+    margin: 0;
+  }
+  .in-the-tranquil-container {
+    position: absolute;
+    top: 84px;
+    left: calc(50% - 358.5px);
+    font-size: var(--font-size-5xl);
+    line-height: 210%;
+    font-family: var(--font-cedarville-cursive);
+    color: var(--color-dimgray);
+    text-align: justify;
+    display: inline-block;
+    width: 717px;
+  }
+  .cover-image {
+    position: absolute;
+    top: 56px;
+    left: calc(50% - 421.5px);
+    background-color: var(--paper);
+    box-shadow: -5px 5px 10px 2px rgba(129, 102, 0, 0.52);
+    width: 843px;
+    height: 474.2px;
+    overflow: hidden;
+  }
+  .frame-child {
+    position: absolute;
+    top: -1.5px;
+    left: 786.5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-right: 3px solid var(--color-tomato-200);
+    box-sizing: border-box;
+    width: 3px;
+    height: 586px;
+  }
+  .cover-image-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 843px;
+    height: 583px;
+  }
+  .hand-point-icon {
+    position: absolute;
+    top: 465px;
+    left: 20px;
+    width: 126px;
+    height: 126px;
+    overflow: hidden;
+  }
+  .frame-item {
+    position: absolute;
+    top: -1.5px;
+    left: 49.5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-right: 3px solid var(--color-tomato-200);
+    box-sizing: border-box;
+    width: 3px;
+    height: 586px;
+  }
+  .frame2 {
+    position: absolute;
+    top: 0px;
+    left: 212px;
+    width: 843px;
+    height: 591px;
+    overflow: hidden;
+  }
+  .frame1 {
+    position: absolute;
+    top: 0px;
+    left: 13px;
+    width: 1055px;
+    height: 591px;
+    overflow: hidden;
+  }
+  .frame {
+    position: absolute;
+    top: 76px;
+    left: 110px;
+    width: 1068px;
+    height: 591px;
+    overflow: hidden;
+  }
+  .frame-inner {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .practice-reading-10 {
+    margin: 0;
+  }
+  .using-visual-pacer {
+    margin: 0;
+  }
+  .practice-reading-10-container {
+    top: 0px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 745px;
+  }
+  .button-icon {
+    position: absolute;
+    top: 132px;
+    left: 201.1px;
+    border-radius: var(--br-73xl);
+    max-width: 100%;
+    overflow: hidden;
+    height: 100.2px;
+    object-fit: contain;
+  }
+  .practice-reading-10-minutes-us-parent {
+    position: absolute;
+    top: 26.9px;
+    left: 256px;
+    width: 745px;
+    height: 232.2px;
+  }
+  .group-parent {
+    position: absolute;
+    top: 0px;
+    left: 17px;
+    width: 1257px;
+    height: 285.8px;
+  }
+  .frame4 {
+    position: absolute;
+    top: 885.1px;
+    left: 0px;
+    width: 1274px;
+    height: 285.8px;
+    overflow: hidden;
+  }
+  .frame-child1 {
+    width: 70px;
+    position: relative;
+    border-radius: var(--br-31xl);
+    height: 70px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .loose-your-finger {
+    position: relative;
+    font-weight: 500;
+  }
+  .frame-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xl) var(--padding-63xl) var(--padding-xl)
+      var(--padding-7xl);
+    gap: var(--gap-lgi);
+  }
+  .frame-child2 {
+    width: 70px;
+    position: relative;
+    border-radius: var(--br-31xl);
+    height: 70px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .underline-words-with {
+    margin: 0;
+  }
+  .finger-mouse {
+    margin: 0;
+  }
+  .underline-words-with-container {
+    position: relative;
+    font-weight: 500;
+  }
+  .frame-parent1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xl) var(--padding-63xl) var(--padding-xl)
+      var(--padding-7xl);
+    gap: var(--gap-lgi);
+  }
+  .frame-child3 {
+    width: 70px;
+    position: relative;
+    border-radius: var(--br-31xl);
+    height: 70px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .not-drag-finger {
+    margin: 0;
+  }
+  .the-screen-just {
+    margin: 0;
+  }
+  .not-drag-finger-container {
+    position: relative;
+    font-weight: 500;
+  }
+  .frame-parent2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xl) var(--padding-63xl) var(--padding-xl)
+      var(--padding-7xl);
+    gap: var(--gap-lgi);
+  }
+  .frame-child4 {
+    width: 70px;
+    position: relative;
+    border-radius: var(--br-31xl);
+    height: 70px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .practice-going-margin {
+    margin: 0;
+  }
+  .and-your-eyes {
+    margin: 0;
+  }
+  .practice-going-margin-container {
+    position: relative;
+    font-weight: 500;
+  }
+  .frame-parent3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xl) var(--padding-63xl) var(--padding-xl)
+      var(--padding-7xl);
+    gap: var(--gap-lgi);
+  }
+  .frame-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .vector-icon {
+    position: absolute;
+    height: 16.15%;
+    width: 3.54%;
+    top: 23.08%;
+    right: 67.68%;
+    bottom: 60.77%;
+    left: 28.78%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon1 {
+    position: absolute;
+    height: 16.92%;
+    width: 2.43%;
+    top: 82.95%;
+    right: 63.29%;
+    bottom: 0.13%;
+    left: 34.28%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon2 {
+    position: absolute;
+    height: 12.69%;
+    width: 1.54%;
+    top: 83.08%;
+    right: 72.09%;
+    bottom: 4.23%;
+    left: 26.37%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon3 {
+    position: absolute;
+    height: 8.97%;
+    width: 2.71%;
+    top: 14.62%;
+    right: 57.34%;
+    bottom: 76.41%;
+    left: 39.95%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon4 {
+    position: absolute;
+    height: 10.77%;
+    width: 2.9%;
+    top: 66.54%;
+    right: 52.06%;
+    bottom: 22.69%;
+    left: 45.04%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon5 {
+    position: absolute;
+    height: 7.56%;
+    width: 2.03%;
+    top: 29.87%;
+    right: 45.43%;
+    bottom: 62.56%;
+    left: 52.53%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon6 {
+    position: absolute;
+    height: 11.92%;
+    width: 2.3%;
+    top: 43.46%;
+    right: 0%;
+    bottom: 44.62%;
+    left: 97.7%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .vector-icon7 {
+    position: absolute;
+    height: 21.28%;
+    width: 2.79%;
+    top: 66.03%;
+    right: 36.01%;
+    bottom: 12.69%;
+    left: 61.2%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon8 {
+    position: absolute;
+    height: 11.03%;
+    width: 3.28%;
+    top: 12.82%;
+    right: 33.6%;
+    bottom: 76.15%;
+    left: 63.12%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon9 {
+    position: absolute;
+    height: 9.74%;
+    width: 4.29%;
+    top: 14.23%;
+    right: 16.9%;
+    bottom: 76.03%;
+    left: 78.81%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon10 {
+    position: absolute;
+    height: 16.41%;
+    width: 3.43%;
+    top: 71.03%;
+    right: 18.72%;
+    bottom: 12.56%;
+    left: 77.85%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon11 {
+    position: absolute;
+    height: 5.13%;
+    width: 2.17%;
+    top: 44.36%;
+    right: 25.47%;
+    bottom: 50.51%;
+    left: 72.37%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon12 {
+    position: absolute;
+    height: 10.38%;
+    width: 2.81%;
+    top: 83.97%;
+    right: 4.11%;
+    bottom: 5.64%;
+    left: 93.09%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon13 {
+    position: absolute;
+    height: 6.79%;
+    width: 2.67%;
+    top: 24.49%;
+    right: 7.78%;
+    bottom: 68.72%;
+    left: 89.55%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .frame5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 530.9px;
+    height: 78px;
+    overflow: hidden;
+  }
+  .frame-icon2 {
+    position: absolute;
+    top: 83.3px;
+    left: 274.1px;
+    width: 287.4px;
+    height: 18.5px;
+    overflow: hidden;
+  }
+  .frame-icon3 {
+    position: absolute;
+    top: 110px;
+    left: 157px;
+    width: 464px;
+    height: 24.9px;
+    overflow: hidden;
+  }
+  .frame-parent5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 621px;
+    height: 134.9px;
+  }
+  .frame-wrapper1 {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 192px);
+    width: 384px;
+    height: 78px;
+  }
+  .shaperectanglesize7-icon {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: -7px;
+    top: -11px;
+    transform: scale(1.152);
+  }
+  .wrapper-shaperectanglesize7 {
+    position: absolute;
+    height: calc(100% - 140.7px);
+    width: 100%;
+    top: 140.7px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-parent4 {
+    position: absolute;
+    top: 88px;
+    left: 747px;
+    width: 512px;
+    height: 652.7px;
+    font-size: var(--font-size-35xl-9);
+    font-family: var(--font-caveat);
+  }
+  .frame-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1259px;
+    height: 838px;
+    text-align: left;
+    font-size: var(--font-size-17xl);
+  }
+  .frame3 {
+    position: absolute;
+    top: 725px;
+    left: 110px;
+    width: 1274px;
+    height: 1170.9px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-space-grotesk);
+  }
+  .visualpacer {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-ivory);
+    height: 1998px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-35xl-9);
+    color: var(--color-black);
+    font-family: var(--font-caveat);
+  }
+  
+  .minute-reading-test-child {
+    position: absolute;
+    top: 21px;
+    left: 1286px;
+    width: 76px;
+    height: 77px;
+    object-fit: contain;
+  }
+  .in-the-tranquil2 {
+    margin: 0;
+  }
+  .one-day-as2 {
+    margin: 0;
+  }
+  .amelia-realized-the2 {
+    margin: 0;
+  }
+  .one-day-a2 {
+    margin: 0;
+  }
+  .as-the-traveler2 {
+    margin: 0;
+  }
+  .word-of-eldenwoods2 {
+    margin: 0;
+  }
+  .in-the-heart2 {
+    margin: 0;
+  }
+  .in-the-tranquil-container2 {
+    position: absolute;
+    top: 107px;
+    left: calc(50% - 602px);
+    line-height: 210%;
+    display: inline-block;
+    width: 1104px;
+  }
+  .minute-reading-test-item {
+    position: absolute;
+    top: 141px;
+    left: 1325px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-gold);
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.25) inset;
+    width: 16px;
+    height: 215px;
+  }
+  .frame-child13 {
+    position: absolute;
+    height: 172.87%;
+    width: 122.08%;
+    top: 0%;
+    right: -22.08%;
+    bottom: -72.87%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .b {
+    position: absolute;
+    top: 16.8px;
+    left: 0px;
+  }
+  .frame-child14 {
+    border-radius: 71.86px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 79.4px;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .frame-wrapper5 {
+    position: absolute;
+    top: 0px;
+    left: 160.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .parent {
+    position: absolute;
+    top: 21px;
+    left: 106px;
+    width: 538px;
+    height: 79.4px;
+  }
+  .group-container {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 375px);
+    width: 750px;
+    height: 115px;
+  }
+  .banner {
+    position: absolute;
+    top: 837px;
+    left: calc(50% - 425px);
+    width: 750px;
+    height: 115px;
+    text-align: left;
+    font-size: 42.8px;
+    color: var(--color-black);
+    font-family: var(--font-space-grotesk);
+  }
+  .minute-reading-test {
+    width: 1380px;
+    position: relative;
+    border-radius: var(--br-31xl);
+    background-color: var(--paper);
+    backdrop-filter: blur(4px);
+    height: 982px;
+    overflow: hidden;
+    max-width: 90%;
+    max-height: 90%;
+    text-align: justify;
+    font-size: var(--font-size-5xl);
+    color: var(--color-dimgray);
+    font-family: var(--font-lato);
+  }
+  

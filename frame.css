@@ -1,0 +1,7 @@
+.frame15 {
+  position: relative;
+  background-color: var(--paper);
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
