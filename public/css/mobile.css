@@ -94,6 +94,9 @@
      .calculator {
         width: 80%;
      }
+     .gooey-svg {
+        display:none;
+     }
   
 }
 
@@ -102,6 +105,9 @@
     .container, .border-container {
         width: 90% !important;
     }
+    .gooey-svg {
+        display:none;
+     }
 
     header {
         display: flex;

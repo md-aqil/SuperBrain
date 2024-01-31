@@ -624,7 +624,9 @@ button:hover i::after {
  .icon-list h4 {
   margin: 0;
  }
-
+.mb-0 {
+  margin-bottom:0 !important;
+}
  .icon-list p {
   margin: 0;
   margin-top: 10px;
@@ -675,4 +677,73 @@ button:hover i::after {
   border-bottom: 1px solid #d1d1d1;
   padding: 14px 0px;
   margin: 15px 0px;
+}
+
+.action {
+  border-radius: 8px;
+border: 2px solid #5AB5E8;
+background: #9DDCFF;
+box-shadow: 5px 5px 20px 0px rgba(157, 220, 255, 0.15);
+padding: 15px;
+marging-top: 50px;
+margin-bottom:50px;
+}
+.action h4{
+  margin: 0;
+  font-size: 21px;
+}
+.icon-list.flex li {
+  display: flex; align-items: center; gap: 20px;
+}
+.numbox{
+  border-radius: 6px;
+border: 2px solid #EECD56;
+background: #FFE68C;
+display: flex;
+padding: 15px 25px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+font-size: 30px;
+font-weight:bolder;
+
+text-shadow: 0 1px 8px #00000021;
+box-shadow: 0 7px 10px #0000001a;
+-webkit-border-radius: 50%/14% !important;
+border-radius: 50%/14% !important;
+
+}
+.numbox.blue {
+  background: #9DDCFF;
+  border-color: #5AB5E8;
+}
+.numbox.pink {
+  background: #FFC9F0;
+  border-color: #F384D4;
+}
+.numbox.purple {
+  background: #C5A1FF;
+  border-color: #BA8FFF;
+}
+
+
+.numbox-list li {
+  display:flex;
+  gap:20px;
+  align-items:center;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+.numbox-list li h4 {
+  font-size: 21px;
+  margin:0;
+  margin-bottom: 5px;
+
+}
+.numbox-list li p {
+  font-size: 18px;
+  margin:0;
+  color:#333;
+
 }
