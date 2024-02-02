@@ -9,13 +9,12 @@
 <link rel="stylesheet" href="./public/css/anim.css">
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./speed-test.css" />
+    <link rel="stylesheet" href="./public/css/mobile.css">
    
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap"
-    />
+  
   </head>
   <body class="bg-theme">
+
     <div class="container">
       <header>
         <a href="./">
@@ -31,20 +30,18 @@
 
       </header>
     </div>
+    <div class="container">
+      <div class="text-center">
+        <h2 class="bulge title" data-splitting="">Read For 2 minutes</h2>
+        <p class="para text-center" style="margin: 10px;">Read For 2 minutes after two minutes count the line you have read</p>
+        
+      </div>
+    
+    </div>
 
-    <div class="speed-test">
-        <div class="find-your-starting-speed-parent">
-          <div aria-hidden="true" class="bulge title" data-splitting="">
-            Read For 2 minutes
-          </div>
-          
-          <div class="para text-center">
-          <p class=" bold" style="margin: 10px;">Read For 2 minutes after two minutes count the line you have read</p>
-
-        </div>
-         <!-- <button id="gooey-button">
-    F*** Awesome
-    <span class="bubbles">
+   
+    <div class="bg-rib fixed-bottom" style="width: 70%;">
+      <span class="bubbles" style="top:30px;left: 50%;">
         <span class="bubble"></span>
         <span class="bubble"></span>
         <span class="bubble"></span>
@@ -56,44 +53,23 @@
         <span class="bubble"></span>
         <span class="bubble"></span>
     </span>
-</button>
-     -->
+    <img class="ribbon1" alt="" src="./public/small-ribbon.svg">
 
-        <div class="bg-rib fixed-bottom" id="gooey-button" style="width: 70%;">
-          <span class="bubbles" style="top:30px;left: 50%;">
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-        </span>
-        <img class="ribbon1" alt="" src="./public/small-ribbon.svg">
+      <h2  id="timerButton"
+      data-duration="120">02:00</h2>
 
-          <h2  id="timerButton"
-          data-duration="120">02:00</h2>
-
-          <button
-            class="btn-blue modal-trigger"
-           
-            data-modal-target="#myModal"
-          >
-            Calculate speed
-          </button>
-  
-        </div>
+      <button
+        class="btn-blue modal-trigger"
        
-      
-    </div>
-    </div>
-    <div class="shaperectanglesize71">
-       
+        data-modal-target="#myModal"
+      >
+        Calculate speed
+      </button>
 
-      <div class="border-container mt-4">
+    </div>
+   
+
+      <div class="border-container">
         <p class="once-upon-a read">
           In the village of Wisewood, where whispers of magic lingered among the ancient trees, a young girl named Ella embarked on a remarkable journey fueled by her insatiable curiosity. Ella's quest for knowledge led her to a hidden artifact—the Mind Mastery Crystal, an enchanted gem pulsating with the secrets of mastering one's mind.
 
@@ -115,7 +91,6 @@ As Ella's tale unfolded, Wisewood transformed into a haven of enlightened minds.
         </p>
        
       </div>
-    </div>
 
    
     <!-- popup -->
@@ -163,16 +138,6 @@ As Ella's tale unfolded, Wisewood transformed into a haven of enlightened minds.
       <button type="submit" class="btn btn-blue">Calculate Speed</button>
     </div>
 
-    <svg class="gooey-svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
-      <defs>
-          <filter id="gooey">
-              <!-- in="sourceGraphic" -->
-              <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
-              <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="highContrastGraphic" />
-              <feComposite in="SourceGraphic" in2="highContrastGraphic" operator="atop" />
-          </filter>
-      </defs>
-  </svg>
 
  
 

@@ -8,17 +8,28 @@
     header a img {
         width: 150px;
     }
+    .ribbon1 {
+        width:100%;
+    }
 
     .flex-box .flex-col {
         width: 100%;
     }
     .container {
         width: 100% !important;
+        padding: 20px;
     }
     .title, .find-your-starting{
         font-size: 30px !important;
     }
 
+    header button {
+        font-size: 14px;
+        padding: 10px 12px !important;
+    }
+    a {
+        display:block;
+    }
     button {
         position: relative;
         background-color: var(--color-ivory);
@@ -28,12 +39,16 @@
         border: 2px solid #000000a6;
         letter-spacing: 0;
         font-size: 16px;
-        padding: 10px 17px;
-        transition: 0.2s;
-        border-radius: 40px;
-        font-weight: bold;
-        cursor: pointer;
-        text-decoration: none;
+        padding: 14px 20px !important;
+        width:100%;
+        display:block;
+        font-weight:normal !important;
+       
+    }
+
+    .icon-list p {
+      
+        font-size: 16px;
     }
     .pacer-holder {
         width: 100%;
@@ -44,6 +59,13 @@
     background: #ffdc58;
     padding: 15px;
     TEXT-ALIGN: CENTER;
+    width:90% !important;
+    margin: auto;
+    }
+    #timerButton {
+        font-size: 40px;
+        margin: 0;
+        margin-bottom: 10px;
     }
 
     .flex-box {
@@ -66,7 +88,7 @@
 
     .read {
         
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .fx-text {
@@ -83,20 +105,40 @@
         text-align: center;
         justify-content: center;
         padding: 10px;
-        gap: 20px;
+        gap: 0px;
         align-items: center;
         flex-direction: column;
+        background: var(--color-gold);
+        border-radius: 8px;
+        box-shadow: 0 0 7px #00000040;
+    }
+    .numbox {
+        padding: 10px 15px;
+        font-size: 24px;
+    }
+    .numbox-list {
+        padding: 0;
     }
     .subtitle {
         font-size: 18px;
     }
 
      .calculator {
-        width: 80%;
+        width: 100%;
      }
      .gooey-svg {
         display:none;
      }
+
+     .close-modal {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        font-size: 8px;
+        cursor: pointer;
+        color: #333;
+    }
+
   
 }
 
@@ -128,6 +170,7 @@
     background: #ffdc58;
     padding: 15px;
     TEXT-ALIGN: CENTER;
+    margin:auto;
     }
 
     {
