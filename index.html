@@ -3,10 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./public/css/anim.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./home.css" />
     <link rel="stylesheet" href="./public/css/mobile.css">
+
   
   </head>
   <body style="background-color: var(--color-ivory)">
@@ -18,7 +22,7 @@
          
 
             <button style="--clr:#61bcff">
-              <a href="findyourstartingspeed.html">
+              <a href="t.me/supbrain" target="_blank">
                 Join Community
               </a>
               <i></i></button>
@@ -29,7 +33,7 @@
       <div class="flex-box verticle" >
        
         <div class="flex-col">
-          <div class="title mb-4 fade-in text-center" >How to read a book in <span class="line" data-scroll="">a week</span> </div>
+          <div class="title mb-4 fade-in text-center wapsies" >How to read a book in <span>a week</span> </div>
           <video class="video-intro" src="./public/video/SuperBrain -part-1.mp4" controls></video>
         </div>
 
@@ -72,8 +76,13 @@
        
       </div>
     </div>
+
+<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+
    
     <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+   <script src="./anim.js"></script>
+
 <script>
   ScrollOut({
 });
