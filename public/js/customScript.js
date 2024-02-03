@@ -1,6 +1,6 @@
 $(document).ready(function () {
     // Set default values
-    $('#wordsPerLine').val(20);
+    $('#wordsPerLine').val(17);
     $('#minutesRead').val(2);
 
     // Attach click event to the button

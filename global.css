@@ -1,53 +1,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Raleway:wght@400;600;700&display=swap');
 
 body {
   margin: 0;
   line-height: normal;
-  font-family: Lato;
+  font-family: 'Raleway', sans-serif;
 }
 
-.popup-overlay {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  inset: 0;
-}
-
-
-.fade-in[data-scroll] {
-	opacity: 0;
-	will-change: transform, scale, opacity;
-	-webkit-transform: translateY(6rem) scale(0.93);
-			transform: translateY(6rem) scale(0.93);
-	transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
-  }
-
-  .fade-in[data-scroll="in"] {
-	opacity: 1;
-	-webkit-transform: translateY(0) scale(1);
-			transform: translateY(0) scale(1);
-  }
-  
-
-  .fade-in[data-scroll="in"] .char:after {
-	opacity: 1;
-	-webkit-transform: translateY(0);
-			transform: translateY(0);
-  }
-  
-  
   
 
 :root {
   /* fonts */
-  --font-caveat: Lato;
-  --font-space-grotesk: "Lato";
-  --font-cedarville-cursive: "Cedarville Cursive";
-  --font-lato: Lato;
+  --font-caveat: 'Raleway';
+  --font-space-grotesk: 'Raleway';
+  --font-cedarville-cursive: 'Playfair Display';
+  --font-lato: 'Raleway';
 
   /* font sizes */
   --font-size-35xl-9: 54.9px;
@@ -130,6 +98,37 @@ body {
   box-shadow: 0 0 10px #0000002b;
   
 }
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+
+.fade-in[data-scroll] {
+	opacity: 0;
+	will-change: transform, scale, opacity;
+	-webkit-transform: translateY(6rem) scale(0.93);
+			transform: translateY(6rem) scale(0.93);
+	transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  .fade-in[data-scroll="in"] {
+	opacity: 1;
+	-webkit-transform: translateY(0) scale(1);
+			transform: translateY(0) scale(1);
+  }
+  
+
+  .fade-in[data-scroll="in"] .char:after {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+			transform: translateY(0);
+  }
+  
+  
 .container {
   width: 70%;
   margin: auto;
@@ -470,7 +469,9 @@ header {
 .line[data-scroll]:before {
   width:0;
 }
-
+.yellow-text {
+   color: #e9bc13;
+}
 .line[data-scroll="in"]:before {
   width:100%;
 }
@@ -481,7 +482,6 @@ button {
   background-color: var(--color-ivory);
   color: #333;
   text-decoration: none;
-  text-transform: uppercase;
   border: 2px solid #000000a6;
   letter-spacing: 0.1rem;
   font-size: 1rem;
@@ -491,7 +491,14 @@ button {
   font-weight:bold;
   cursor:pointer;
   text-decoration:none;
+  letter-spacing:0;
+  white-space: nowrap;
+
   
+}
+.btn-blue {
+  white-space: nowrap;
+
 }
  a {
   color:inherit;
@@ -616,6 +623,7 @@ button:hover i::after {
 
  .pacer-holder .img-pacer{
   width:100%;
+  filter: drop-shadow(2px 4px 6px #00000060);
  }
  .bg-rib .btn {
   position: relative;
@@ -627,11 +635,18 @@ button:hover i::after {
 .mb-0 {
   margin-bottom:0 !important;
 }
+.icon-list {
+  padding:0;
+}
  .icon-list p {
   margin: 0;
   margin-top: 10px;
   color: #4e4e4e;
   margin-bottom: 5px;
+  font-size: 18px;
+  color: var(--color-gray-200);
+  font-family: var(--font-lato);
+  line-height:1.5;
 }
 .heading {
   margin: 0;
@@ -684,7 +699,7 @@ button:hover i::after {
 .action {
   border-radius: 8px;
 border: 2px solid #5AB5E8;
-background: #9DDCFF;
+background: #9ddcffa8;
 box-shadow: 5px 5px 20px 0px rgba(157, 220, 255, 0.15);
 padding: 15px;
 marging-top: 50px;

@@ -45,7 +45,9 @@
         font-weight:normal !important;
        
     }
-
+    .congrats {
+        font-size: 30px !important;
+    }
     .icon-list p {
       
         font-size: 16px;

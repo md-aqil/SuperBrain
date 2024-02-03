@@ -5,10 +5,13 @@
     <meta name="viewport" content="initial-scale=1, width=device-width" />
     <link rel="stylesheet" href="https://md-aqil.github.io/beeIcon/beeicon-font.css">
     <link rel="stylesheet" href="./public/css/anim.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
     <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./visualpacer.css" />
+    <link rel="stylesheet" href="./home.css" />
     <link rel="stylesheet" href="./public/css/mobile.css">
-   
+
   </head>
   <body class="bg-theme">
     <div class="container">
@@ -31,7 +34,7 @@
           
           <div class="pacer-holder">
             <h2 class="title text-center">
-              How To Use A Visual Pacer
+              How To Use A <span class="yellow-text blowing" data-splitting>Visual Pacer</span> 
           </h2>
             <img class="img-pacer" src="./public/visual-pacer.svg" alt="">
             <img class="pointer" src="./public/Hand Point.svg" alt="">
@@ -40,8 +43,8 @@
          
         </div>
 
-        <div class="container" style="width: 60%;">
-          <div class="flex-box">
+        <div class="container">
+          <div class="flex-box" style="gap: 30px;">
             <div class="flex-col">
               
               <ul class="icon-list">
@@ -74,7 +77,7 @@
 
                 <li>
 
-                  When you do your 10 minutes of reading use your finger as a Visual Pacer
+                  When you do your 10 minutes of reading use your finger as A Visual Pacer
                 </li>
               </ul>
             </div>
@@ -96,8 +99,7 @@
               <li>
                 When you do your 10 minutes of reading, use your finger as a visual pacer.
               </li>
-              <li>
-              </li>
+              
             </ul>
            
           </div>
@@ -106,7 +108,7 @@
 
 
 
-<div class="container">
+<div class="container spacer">
   <div class="bg-rib" id="gooey-button" style="flex-direction: column;
   gap: 0;">
     <span class="bubbles" style="top:-30px;left: 50%;">
@@ -126,7 +128,7 @@
   <h4 class="heading mb-0">Practice reading 10 minutes Using Visual pacer</h4>
   
     <a href="./10m-speed-test1.html" class="btn btn-blue" style="width: 280px;
-        margin: 30px auto;">Quick 10-Min Session</a>
+        margin: 30px auto; margin-bottom: 0;">Quick 10-Min Session</a>
 
   </div>
 
@@ -147,5 +149,11 @@
 </svg>
 
     
+
+<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+
+   
+<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+<script src="./anim.js"></script>
   </body>
 </html>
