@@ -132,7 +132,8 @@ body {
 .container {
   width: 70%;
   margin: auto;
-  padding: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .flex-box.verticle .flex-col {
@@ -508,7 +509,6 @@ button {
 }
 button:hover {
   letter-spacing: 0.2rem;
-  padding: 1.1rem 3.1rem;
   background: var(--clr);
   color: var(--clr);
   /* box-shadow: 0 0 35px var(--clr); */
@@ -600,7 +600,7 @@ button:hover i::after {
     font-size: 21px;
     font-weight: 400;
   margin-top: 10px;
-  margin-bottom:10px;
+  margin-bottom:30px;
 }
 .fixed-bottom {
     position: fixed !important;
@@ -631,6 +631,10 @@ button:hover i::after {
  }
  .icon-list h4 {
   margin: 0;
+ }
+
+ .bg-rib.fixed-bottom {
+  margin: 8px auto;
  }
 .mb-0 {
   margin-bottom:0 !important;
@@ -702,8 +706,8 @@ border: 2px solid #5AB5E8;
 background: #9ddcffa8;
 box-shadow: 5px 5px 20px 0px rgba(157, 220, 255, 0.15);
 padding: 15px;
-marging-top: 50px;
-margin-bottom:50px;
+marging-top: 25px;
+margin-bottom:25px;
 }
 .action h4{
   margin: 0;
@@ -763,4 +767,29 @@ border-radius: 50%/14% !important;
   margin:0;
   color:#333;
 
+}
+header {
+  padding: 15px 0;
+}
+header img {
+  width: 95px;
+}
+header button {
+  padding: 12px 40px;
+}
+
+footer {
+  border-top: 1px solid #555;
+    margin-top: 50px;
+}
+footer p {
+ 
+}
+.copyright {
+  display: flex; justify-content: space-between;
+}
+
+.bg-rib {
+  margin-top: 100px;
+  margin-bottom:100px;
 }
