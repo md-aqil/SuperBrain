@@ -93,9 +93,10 @@ body {
   width: 65%;
   margin: auto;
   background: #fff;
-  padding: 30px;
+  padding: 20px;
   border: 2px solid;
   box-shadow: 0 0 10px #0000002b;
+  margin-top: 30px;
   
 }
 
@@ -448,6 +449,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width:100%;
+    margin-bottom:50px;
 }
 .line {
   position: relative;
